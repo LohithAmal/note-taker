@@ -1,0 +1,29 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "This is a note taker application build with technologies NOde j.s and Express j.s",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LohithAmal/note-taker.git"
+  },
+  "keywords": [
+    "node",
+    "j.s",
+    "Express",
+    "j.s"
+  ],
+  "author": "Amal Lohith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LohithAmal/note-taker/issues"
+  },
+  "homepage": "https://github.com/LohithAmal/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
