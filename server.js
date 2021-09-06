@@ -30,5 +30,18 @@ app.get('/api/notes', (request,response)=>{
   response.json(notes)
 });
 
+// this code will save notes to json
+app.post('/api/notes', (request, response)=>{
+
+  request.body.id = notes.length.toString();
+  const note = request.body;
+  notes.push(note)
+  fs.writeFileSync(
+    path.join(__dirname, "./Develop/db/db.json"),
+    JSON.stringify({notes:notes}, null, 2)
+  );
+  response.json(note)
+});
+
 
 
