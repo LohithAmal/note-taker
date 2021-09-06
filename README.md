@@ -34,10 +34,10 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 * Being able to take persistent notes allows users to have written information available when needed.
 
 # Demo :
-
+[demo video](https://youtu.be/n7VrJ52tQSY)
 
 # Application Preview : 
-
+[preview](https://youtu.be/n7VrJ52tQSY)
 
 
 # Technology :
