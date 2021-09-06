@@ -42,6 +42,16 @@ app.post('/api/notes', (request, response)=>{
   );
   response.json(note)
 });
+// connect the backend to frontend
+app.get('/', (request,response)=>{
+  response.sendFile(path.join(__dirname,'./Develop/public/index.html'));
+});
 
+app.get('/notes', (request, response)=>{
+  response.sendFile(path.join(__dirname,"./Develop/public/notes.html"));
+})
 
+app.listen(PORT, ()=>{
+  console.log(`server available on port ${PORT}`);
+});
 
