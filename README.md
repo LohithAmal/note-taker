@@ -1,6 +1,7 @@
 # Note-Taker
 
 
+
 # Description :
 
 This is a Note Taker application build using Node j.s and Express J.s.
@@ -34,13 +35,13 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 * Being able to take persistent notes allows users to have written information available when needed.
 
 # Demo :
-[demo video](https://youtu.be/n7VrJ52tQSY)
+[demo video](https://youtu.be/nDQ4IzYHiqA)
 
 # Application Preview : 
-[preview](https://youtu.be/n7VrJ52tQSY)
+[preview](https://youtu.be/nDQ4IzYHiqA)
 
 
-# Technology :
+# Technology : 
 
 **1. [Express.js](https://expressjs.com/)** :
 
@@ -52,7 +53,9 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 * Clone this repository
 * install node dependencies express
+* install heroku 
 * run npm start on terminal
+* run git push heroku main to get link [open this link to see app deployed on heroku](https://notetakerapp.herokuapp.com/)
 * run http://localhost:3000 on chrome to use application
 
 # Features :
